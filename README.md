@@ -1,4 +1,4 @@
-Medical LLM Fine-tuning with QLoRA (Unsloth)
+#Medical LLM Fine-tuning with QLoRA (Unsloth)
 
 This project fine-tunes a 4-bit quantized DeepSeek-R1-Distill-Llama-8B model on clinical question-and-answer data from the medical-o1-reasoning-SFT dataset. It uses Unsloth for memory-efficient training, a rank-16 LoRA adapter on all projection layers (0.52% of parameters trainable), and runs on a single free Google Colab T4 GPU, peaking at about 7.2 GB of memory.
 
